@@ -6,7 +6,7 @@ import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 public class SingleBet extends Bet {
     public int numberChosen;
 
-    SingleBet() {
+    public SingleBet() {
         super(35);
     }
 
